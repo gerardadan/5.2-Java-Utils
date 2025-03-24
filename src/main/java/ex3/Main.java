@@ -21,7 +21,6 @@ public class Main {
             new Print("Path don't exist");
             throw new RuntimeException(e);
         }
-
     }
 
     public static void writeFileList(List<File> files, String outPath) {
