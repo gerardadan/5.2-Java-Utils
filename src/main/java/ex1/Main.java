@@ -23,7 +23,7 @@ public class Main {
         }
     }
 
-    public static void writeFileList(List<File> files, String outPath) {
+    private static void writeFileList(List<File> files, String outPath) {
         try {
             PrintStream printStream = new PrintStream(outPath);
             FilePrint.printFiles(files, printStream, 0);

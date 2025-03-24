@@ -29,25 +29,4 @@ public class FileUtils {
             return new File[0];
         }
     }
-
-    public static String[] convertArrayFilesToArrayString(File[] files) {
-        String[] sFiles = new String[files.length];
-        int i = 0;
-        for (File item : files) {
-            sFiles[i++] = item.getName();
-        }
-
-        return sFiles;
-    }
-
-    public static List<String> convertListFilesToListString(List<File> files) {
-        List<String> listString = new ArrayList<>();
-        int i = 0;
-        for (File item : files) {
-            listString.add(item.getName());
-        }
-
-        return listString;
-    }
-
 }
