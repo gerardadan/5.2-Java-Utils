@@ -1,4 +1,4 @@
-package ex3;
+package ex1;
 
 import utils.*;
 
