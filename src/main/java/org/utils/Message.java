@@ -1,4 +1,4 @@
-package utils;
+package org.utils;
 
 import java.io.Serial;
 import java.io.Serializable;

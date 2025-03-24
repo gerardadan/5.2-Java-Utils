@@ -1,6 +1,6 @@
-package ex1;
+package org.ex1;
 
-import utils.*;
+import org.utils.*;
 
 import java.io.*;
 import java.util.List;
